@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mi-sitio.com"),
+  metadataBase: new URL("https://lab14-nextjs-seo.vercel.app"),
   title: {
     default: "Mi App",
     template: "%s | Mi Sitio Optimizado",

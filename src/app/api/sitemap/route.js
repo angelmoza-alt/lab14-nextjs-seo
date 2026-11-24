@@ -1,6 +1,6 @@
 import { obtenerPosts, obtenerProductos } from "@/lib/db";
 
-const BASE_URL = "https://mi-sitio.com";
+const BASE_URL = "https://lab14-nextjs-seo.vercel.app";
 
 export async function GET() {
   // Rutas fijas de la aplicación
