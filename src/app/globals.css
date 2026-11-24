@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f5f7fb; color: #1f2937; }
+.menu { display: flex; gap: 20px; padding: 14px 24px; background: #111827; }
+.menu a { color: #f9fafb; text-decoration: none; font-weight: 600; }
+.menu a:hover { color: #60a5fa; }
+.p-4 { padding: 24px; }
+.mb-4 { margin-bottom: 16px; }
+.text-2xl { font-size: 28px; }
+.font-bold { font-weight: 700; }
+.tarjeta { background: #fff; border-radius: 10px; padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.tarjeta a { color: #2563eb; text-decoration: none; font-weight: 600; }
+form { display: flex; flex-direction: column; gap: 10px; max-width: 420px; }
+input, textarea { padding: 8px 10px; border: 1px solid #cbd5e1; border-radius: 6px; font: inherit; }
+button { padding: 10px; border: 0; border-radius: 6px; background: #2563eb; color: #fff; font-weight: 600; }
